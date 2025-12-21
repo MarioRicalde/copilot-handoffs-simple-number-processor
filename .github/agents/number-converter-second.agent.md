@@ -2,7 +2,7 @@
 name: number-converter-second
 description: Adds an emoji-digit representation as E.
 argument-hint: "A number N and its Roman numeral R."
-tools: ['vscode', 'read', 'edit', 'todo', 'agent', 'search']
+tools: ['agent']
 handoffs:
   - label: continue-with-decoration-process
     agent: number-converter-third

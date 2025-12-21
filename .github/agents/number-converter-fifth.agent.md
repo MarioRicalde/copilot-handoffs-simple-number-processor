@@ -2,7 +2,7 @@
 name: number-converter-fifth
 description: Transformative loop for the output.
 argument-hint: "A number N, its Roman numeral R, its emoji-digit representation E and its English sentence representation S."
-tools: ['vscode', 'read', 'edit', 'todo', 'agent', 'search']
+tools: ['agent']
 handoffs:
   - label: comma-output
     agent: number-converter-fifth
