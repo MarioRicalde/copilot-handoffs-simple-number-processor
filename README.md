@@ -17,3 +17,8 @@ This should trigger the whole flow and produce the final decorated output:
 | N | R | E | S |
 |-----|---|---|---|
 | 1234 | MCCXXXIV | 1️⃣2️⃣3️⃣4️⃣ | one thousand two hundred thirty four |
+`
+## Observations
+
+Observations live in a separate repository: [MarioRicalde/copilot-observations](https://github.com/MarioRicalde/copilot-observations).
+
