@@ -1,0 +1,21 @@
+---
+name: number-converter-verify
+description: Transformative loop for the output.
+argument-hint: "A number N, its Roman numeral R, its emoji-digit representation E and its English sentence representation S."
+tools: ['agent']
+handoffs:
+  - label: continue
+    agent: number-converter-first
+    prompt: "You receive N: ${N}"
+    showContinueOn: true
+    send: true
+---
+input: markdown table with columns <N>, <R>, <E> and <S>
+
+Verify the table and ensure that the following is true:
+
+- You see a markdown table with columns <N>, <R>, <E> and <S>.
+- In the <E> column, commas are correctly placed after every emoji digit, leaving no adjacent emoji-digits: `2️⃣,2️⃣,2️⃣,2️⃣` instead of `2️⃣2️⃣2️⃣2️⃣`.
+
+If one or more of these conditions is not met, execute <continue> to start the process again until we succeed.
+`

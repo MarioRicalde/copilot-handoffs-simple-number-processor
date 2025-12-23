@@ -5,10 +5,10 @@ argument-hint: "A number N."
 target: vscode
 tools: ['agent']
 handoffs:
-  - label: continue-with-decoration-process
+  - label: continue
     agent: number-converter-sed
     prompt: "You receive a number N: ${N} and Roman numeral R: ${R}."
     showContinueOn: false
     send: true
 ---
-Convert and write the number provided <N> as a Roman numeral as <R>, then <continue-with-decoration-process>
+Convert and write the number provided <N> as a Roman numeral as <R>, then <continue>
