@@ -19,4 +19,3 @@ Verify the table and ensure that the following is true:
 - You output the table in markdown format without any additional text.
 
 If one or more of these conditions is not met, execute <continue> to start the process again until we succeed.
-`
